@@ -11,6 +11,7 @@ Algorithm starts from [0][0] and iteratively tries to put the next queen on the 
 If all diagonals and rows are already filled, then it goes step back and puts the queen on field[i+1][j].
 
 FindQueenPositions(n, row, column, &counter, &sum_of_verticals, back)
+
         * n - size of field
         * row - the row on which the last queen was placed on (if it was called after queen placement)
         * column - the column on which the last queen was placed on
