@@ -1,6 +1,6 @@
 ### The problem
 
-The task is the popular one - to find all the possible positions for N queens to be placed on NxN chessboard and not touching each other (for simplicity, N $\leq$ 10 is given).
+The task is the popular one - to find all the possible positions for N queens to be placed on NxN chessboard and not touching each other (for simplicity, N <= 10 is given).
 
 ### Algorithm
 
