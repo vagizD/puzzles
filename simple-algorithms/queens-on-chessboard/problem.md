@@ -1,6 +1,6 @@
 ### The problem
 
-The task is the popular one - to find all the possible positions for N queens to be placed on NxN chessboard and not touching each other (for simplicity, N $\leq$ 10 is given).
+The task is the popular one - to find all the possible positions for N queens to be placed on NxN chessboard and not touching each other (for simplicity, N <= 10 is given).
 
 ### Algorithm
 
@@ -11,6 +11,7 @@ Algorithm starts from [0][0] and iteratively tries to put the next queen on the 
 If all diagonals and rows are already filled, then it goes step back and puts the queen on field[i+1][j].
 
 FindQueenPositions(n, row, column, &counter, &sum_of_verticals, back)
+
         * n - size of field
         * row - the row on which the last queen was placed on (if it was called after queen placement)
         * column - the column on which the last queen was placed on
